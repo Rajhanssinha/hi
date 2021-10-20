@@ -1,0 +1,12 @@
+h1{
+    color:darkorange;
+    font-style: italic;
+}
+td{
+
+    text-align: center;
+}
+th{
+    text-align: center;
+    color:darkred
+}

@@ -1,0 +1,20 @@
+
+<h1>Below are the reviews of pizzas by customer:</h1>
+<div class="container">
+<table class="table table-bordered table-hover table-dark table-striped" border="3">
+  <tr>
+    <th >Customer Name</th>
+    <th>Pizza Name</th>
+    <th>Feedback</th>
+  </tr>
+<tbody>
+  <tr *ngFor="let n of fb">
+    <td>{{n.cus_name}}</td>
+    <td>{{n.name}}</td>
+    <td>{{n.feedback}}</td>
+    </tr>
+</tbody>
+ 
+</table>
+<body>
+
