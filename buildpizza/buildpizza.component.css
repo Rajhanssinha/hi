@@ -1,0 +1,11 @@
+table{
+    width: 50%;
+    margin-left: 25%;
+}
+.buildurpizza{
+    background-color: black;
+    color: orange;
+    font-size: larger;
+    margin-left: 40%;
+    border-color: orange;
+}
