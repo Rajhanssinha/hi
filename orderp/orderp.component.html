@@ -1,0 +1,48 @@
+<html>
+<section class="menu container-fluid mx-auto py-8">
+    <div class="container-fluid">
+        <table class="table1">
+            <div class="row row-cols-2">
+                <div class="col" *ngFor="let pizs of piz">
+
+                    <tbody>
+                        <tr class="trrow">
+                            <td>
+                                <div style="text-align: center">
+                                    <h2>{{pizs.name}}</h2>
+                                    <img src="{{pizs.symbol}}" height=15px>
+                                    <br><br>
+                                    <h6>₹{{pizs.price}}</h6>
+                                </div>
+                            </td>
+                            <td>
+                                <br><br>
+                                <p>{{pizs.description}}</p>
+                                <label>
+                                    <h6>Ingredients : </h6>
+                                </label>
+                                <p class=>{{pizs.ingredients}}</p>
+                                <h6>Toppings : </h6>
+                                <p>{{pizs.topping}} </p>
+                            </td>
+                            <td>
+                                <br><br><br>
+                                <div style="text-align: center">
+                                    <img src="{{pizs.image}}" height=100px>
+                                    <button class="addtocart"  (click)="addtocart(pizs)"> Add to Cart</button>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+
+
+                </div>
+
+            </div>
+        </table>
+    </div>
+</section>
+
+</html>

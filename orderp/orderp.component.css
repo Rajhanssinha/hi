@@ -1,0 +1,26 @@
+.trrow{
+    width: 50%;
+    height: 100px;
+}
+.addtocart{
+    background-color:orange ;
+    color: white;
+    width:100px;
+    border-radius: 7px;
+    border-color: white;
+    align-self: center;
+}
+.col{
+    width: "50%";
+    height: 400px;
+    border-style: double;
+    margin-block-start: 25px;
+    box-shadow: black;
+}
+p{
+    font-size: 12px;
+}
+.menu{
+    width: 85%;
+   
+}
